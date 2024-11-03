@@ -16,6 +16,7 @@ out
 # gradle
 build
 .gradle
+classes/
 
 # other
 eclipse
@@ -23,3 +24,20 @@ run
 
 # Files from Forge MDK
 forge*changelog.txt
+
+.vscode/
+
+# macos
+
+*.DS_Store
+
+# fabric
+
+run/
+
+# java
+
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr
